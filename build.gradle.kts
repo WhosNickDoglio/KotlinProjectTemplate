@@ -24,7 +24,8 @@ plugins {
 }
 
 doctor {
-    // https://github.com/runningcode/gradle-doctor/pull/258
+    // https://github.com/runningcode/gradle-doctor/pull/419
+    @Suppress("DEPRECATION")
     warnWhenNotUsingParallelGC = false
 }
 
