@@ -23,12 +23,6 @@ plugins {
     alias(libs.plugins.spotless) apply false
 }
 
-doctor {
-    // https://github.com/runningcode/gradle-doctor/pull/419
-    @Suppress("DEPRECATION")
-    warnWhenNotUsingParallelGC = false
-}
-
 // https://docs.gradle.org/8.9/userguide/gradle_daemon.html#daemon_jvm_criteria
 tasks.updateDaemonJvm.configure {
     languageVersion = JavaLanguageVersion.of(libs.versions.jdk.get())
