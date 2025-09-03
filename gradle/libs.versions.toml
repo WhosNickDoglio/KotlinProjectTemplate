@@ -9,7 +9,7 @@ kover = "0.9.1"
 spotless = "7.2.1"
 jdk = "24"
 jdkTarget = "17"
-sort = "0.14"
+sort = "0.15"
 
 [plugins]
 convention-kotlin = { id = "dev.whosnickdoglio.convention.kotlin", version = "0.1" }
