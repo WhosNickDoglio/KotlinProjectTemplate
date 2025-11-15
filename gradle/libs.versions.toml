@@ -3,22 +3,19 @@ agp = "8.13.1"
 desugar = "2.1.5"
 dependencyAnalysis = "3.4.1"
 kotlin = "2.2.21"
-ktfmt = "0.59"
 detekt = "1.23.8"
 kover = "0.9.3"
-spotless = "8.0.0"
 jdk = "24"
 jdkTarget = "17"
 sort = "0.15"
 
 [plugins]
-convention-kotlin = { id = "dev.whosnickdoglio.convention.kotlin", version = "0.1" }
+convention-kotlin = { id = "dev.whosnickdoglio.convention.kotlin", version = "0.2.0" }
 detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
 lint = { id = "com.android.lint", version.ref = "agp" }
 android-app = { id = "com.android.application", version.ref = "agp" }
 android-library = { id = "com.android.library", version.ref = "agp" }
 doctor = { id = "com.osacky.doctor", version = "0.12.1" }
-spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
 dependencyAnalysis = { id = "com.autonomousapps.dependency-analysis", version.ref = "dependencyAnalysis" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
@@ -26,15 +23,13 @@ kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "ko
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
 kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
 kover = { id = "org.jetbrains.kotlinx.kover", version.ref = "kover" }
+ktfmt = { id = "com.ncorti.ktfmt.gradle", version = "0.25.0" }
 ksp = { id = "com.google.devtools.ksp", version = "2.3.2" }
 sortDependencies = { id = "com.squareup.sort-dependencies", version.ref = "sort" }
 burst = { id = "app.cash.burst" }
 
 [libraries]
 desugar = { module = "com.android.tools:desugar_jdk_libs", version.ref = "desugar" }
-
-# Only present to trigger automatic renovate updates
-ktfmt = { module = "com.facebook:ktfmt", version.ref = "ktfmt" }
 
 junit = { module = "junit:junit", version = "4.13.2" }
 burst = { module = "app.cash.burst:burst-gradle-plugin", version = "2.10.2" }

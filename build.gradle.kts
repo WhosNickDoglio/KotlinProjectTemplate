@@ -16,9 +16,9 @@ plugins {
     alias(libs.plugins.kotlin.kapt) apply false
     alias(libs.plugins.kover) apply false
     alias(libs.plugins.ksp) apply false
+    alias(libs.plugins.ktfmt) apply false
     alias(libs.plugins.lint) apply false
     alias(libs.plugins.sortDependencies) apply false
-    alias(libs.plugins.spotless) apply false
 }
 
 // https://docs.gradle.org/8.9/userguide/gradle_daemon.html#daemon_jvm_criteria
