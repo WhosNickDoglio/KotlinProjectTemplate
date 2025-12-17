@@ -32,5 +32,5 @@ burst = { id = "app.cash.burst" }
 desugar = { module = "com.android.tools:desugar_jdk_libs", version.ref = "desugar" }
 
 junit = { module = "junit:junit", version = "4.13.2" }
-burst = { module = "app.cash.burst:burst-gradle-plugin", version = "2.10.2" }
+burst = { module = "app.cash.burst:burst-gradle-plugin", version = "2.11.0" }
 assertk = { module = "com.willowtreeapps.assertk:assertk", version = "0.28.1" }
