@@ -3,15 +3,14 @@ agp = "8.13.2"
 desugar = "2.1.5"
 dependencyAnalysis = "3.5.1"
 kotlin = "2.3.0"
-detekt = "1.23.8"
 kover = "0.9.4"
 jdk = "25"
 jdkTarget = "17"
 sort = "0.16"
 
 [plugins]
-convention-kotlin = { id = "dev.whosnickdoglio.convention.kotlin", version = "0.2.0" }
-detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
+convention-kotlin = { id = "dev.whosnickdoglio.convention.kotlin", version = "0.3.0" }
+detekt = { id = "dev.detekt", version = "2.0.0-alpha.1" }
 lint = { id = "com.android.lint", version.ref = "agp" }
 android-app = { id = "com.android.application", version.ref = "agp" }
 android-library = { id = "com.android.library", version.ref = "agp" }
