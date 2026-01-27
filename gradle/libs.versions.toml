@@ -10,7 +10,7 @@ sort = "0.16"
 
 [plugins]
 convention-kotlin = { id = "dev.whosnickdoglio.convention.kotlin", version = "0.3.0" }
-detekt = { id = "dev.detekt", version = "2.0.0-alpha.1" }
+detekt = { id = "dev.detekt", version = "2.0.0-alpha.2" }
 lint = { id = "com.android.lint", version.ref = "agp" }
 android-app = { id = "com.android.application", version.ref = "agp" }
 android-library = { id = "com.android.library", version.ref = "agp" }
