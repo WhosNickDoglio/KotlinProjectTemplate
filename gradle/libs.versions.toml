@@ -2,7 +2,7 @@
 agp = "9.0.0"
 desugar = "2.1.5"
 dependencyAnalysis = "3.5.1"
-kotlin = "2.3.0"
+kotlin = "2.3.10"
 kover = "0.9.5"
 jdk = "25"
 jdkTarget = "17"
