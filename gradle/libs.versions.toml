@@ -6,7 +6,7 @@ kotlin = "2.3.21"
 kover = "0.9.8"
 jdk = "25"
 jdkTarget = "17"
-sort = "0.17.1"
+sort = "0.18.0"
 
 [plugins]
 convention-kotlin = { id = "dev.whosnickdoglio.convention.kotlin", version = "0.4.0" }
